@@ -1,0 +1,12 @@
+<%= @name %>:
+  access_key: <%= @access_key %>
+  secret_key: <%= @secret_key %>
+  region: <%= @region %>
+  sqs_endpoint: <%= @sqs_endpoint %>
+  events:
+<% @events.each do |event| %>
+    <%= event.name %>:
+      email:
+        source: <%= event.source %>
+        destination: <%= event.destination %>
+<% end %>
