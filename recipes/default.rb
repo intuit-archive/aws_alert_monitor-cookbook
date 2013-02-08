@@ -18,8 +18,6 @@ template File.join node['aws_alert_monitor']['home'], '.aws-alert-monitor.yml' d
   mode '0600'
 end
 
-cron_authorization node['aws_alert_monitor']['user']
-
 file '/var/log/aws-alert-monitor.log' do
   owner node['aws_alert_monitor']['user']
   mode '0600'
