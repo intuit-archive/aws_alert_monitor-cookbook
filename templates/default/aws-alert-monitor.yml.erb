@@ -7,6 +7,6 @@
 <% @events.each_pair do |event_name, details| %>
     <%= event_name %>:
       email:
-        source: <%= details.source %>
-        destination: <%= details.destination %>
+        source: <%= details['source'] %>
+        destination: <%= details['destination'] %>
 <% end %>
