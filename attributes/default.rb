@@ -1,7 +1,6 @@
 default['aws_alert_monitor']['access_key']   = 'changeme'
 default['aws_alert_monitor']['events']       = {}
 default['aws_alert_monitor']['home']         = '/home/monitor'
-default['aws_alert_monitor']['log_file']     = '/var/log/aws_alert_monitor.log'
 default['aws_alert_monitor']['name']         = 'myapp'
 default['aws_alert_monitor']['package_name'] = 'aws-alert-monitor'
 default['aws_alert_monitor']['region']       = 'us-east-1'

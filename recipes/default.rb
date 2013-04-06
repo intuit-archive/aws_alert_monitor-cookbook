@@ -17,16 +17,3 @@ template File.join node['aws_alert_monitor']['home'], '.aws-alert-monitor.yml' d
   owner node['aws_alert_monitor']['user']
   mode '0600'
 end
-
-file node['aws_alert_monitor']['log_file'] do
-  owner node['aws_alert_monitor']['user']
-  mode '0600'
-end
-
-logrotate_app 'aws-alert-monitor' do
-  cookbook 'logrotate'
-  path node['aws_alert_monitor']['log_file']
-  frequency 'daily'
-  create "600 #{node['aws_alert_monitor']['user']} root"
-  rotate 7
-end
