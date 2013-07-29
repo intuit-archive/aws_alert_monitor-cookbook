@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/intuit/aws_alert_monitor-cookbook.png)](http://travis-ci.org/intuit/aws_alert_monitor-cookbook)
+
 # aws_alert_monitor-cookbook cookbook
 Installs and configures aws-alert-monitor
 
