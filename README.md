@@ -1,5 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/intuit/aws_alert_monitor-cookbook.png)](http://travis-ci.org/intuit/aws_alert_monitor-cookbook)
 
+**!!! This project has been deprecated.  We recommend you search the [Chef Supermarket ](https://supermarket.chef.io/) for a supported alternative !!!**
+
 # aws_alert_monitor-cookbook cookbook
 Installs and configures aws-alert-monitor
 
